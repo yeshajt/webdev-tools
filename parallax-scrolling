@@ -1,0 +1,119 @@
+<!--the following code is a HTML/CSS file to implement parallax scrolling effect on a webpage-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Paralla Scrolling Effect</title>
+    </head>
+    <body>
+        
+        <!--based on the css tags we've created, this div tag signals the main-parallax setting-->
+        <div class = "parallax0">
+            <div class = "parallax-content">
+                <p>Yesha's Food Blog</p>
+            </div>
+        </div>
+        
+        <!--here's the text overlaying on the graphic-->
+        <div style = "height: 250px; text-align: center; background-color: white;">
+            <p style = "font-family: monospace; font-size: 30px;">Introduction.</p>
+            <p style = "font-family: monospace; font-size: 15px; padding-left: 10px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In odio nunc, egestas ut hendrerit vel, tempor eu nibh. Aenean ornare dui eu odio porttitor interdum. Praesent egestas quis purus quis hendrerit. Nam efficitur nunc nec scelerisque facilisis. Pellentesque scelerisque viverra turpis. Phasellus id leo vel nulla gravida fermentum. In hac habitasse platea dictumst. Maecenas vestibulum dolor neque, et placerat felis ornare eu. Praesent lobortis tempus odio vitae porttitor. Nulla nec leo sed lectus mattis sagittis quis et dolor. Proin eu luctus erat. Aenean molestie, nisl nec gravida mattis, est arcu volutpat lacus, vel gravida nisl quam ut velit.</p>
+        </div>
+        
+        <!--thank you, next image :D-->
+        <div class = "parallax1">
+            <div class = "parallax-content">
+                <p>Vanilla Bean</p>
+            </div>
+        </div>
+        
+        <!--here's the text overlaying on the graphic-->
+        <div style = "height: 250px; text-align: center; background-color: white;">
+            <p style = "font-family: monospace; font-size: 30px;">Hula Poke, New York City NY</p>
+            <p style = "font-family: monospace; font-size: 15px">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In odio nunc, egestas ut hendrerit vel, tempor eu nibh. Aenean ornare dui eu odio porttitor interdum. Praesent egestas quis purus quis hendrerit. Nam efficitur nunc nec scelerisque facilisis. Pellentesque scelerisque viverra turpis. Phasellus id leo vel nulla gravida fermentum. In hac habitasse platea dictumst. Maecenas vestibulum dolor neque, et placerat felis ornare eu. Praesent lobortis tempus odio vitae porttitor. Nulla nec leo sed lectus mattis sagittis quis et dolor. Proin eu luctus erat. Aenean molestie, nisl nec gravida mattis, est arcu volutpat lacus, vel gravida nisl quam ut velit.</p>
+        </div>
+        
+        <!--thank you, next image :D-->
+        <div class = "parallax2">
+            <div class = "parallax-content">
+                <p>Mint Chocolate Chip</p>
+            </div>
+        </div>
+        
+        <!--here's the text overlaying on the graphic-->
+        <div style = "height: 250px; text-align: center; background-color: white;">
+            <p style = "font-family: monospace; font-size: 30px;">Blake's Pizza, Cambridge MA</p>
+            <p style = "font-family: monospace; font-size: 15px">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In odio nunc, egestas ut hendrerit vel, tempor eu nibh. Aenean ornare dui eu odio porttitor interdum. Praesent egestas quis purus quis hendrerit. Nam efficitur nunc nec scelerisque facilisis. Pellentesque scelerisque viverra turpis. Phasellus id leo vel nulla gravida fermentum. In hac habitasse platea dictumst. Maecenas vestibulum dolor neque, et placerat felis ornare eu. Praesent lobortis tempus odio vitae porttitor. Nulla nec leo sed lectus mattis sagittis quis et dolor. Proin eu luctus erat. Aenean molestie, nisl nec gravida mattis, est arcu volutpat lacus, vel gravida nisl quam ut velit.</p>
+        </div>
+        <style>
+            
+            /* the first div is for the first background */
+            .parallax0 {
+            
+                /* declare your image url + settings */
+                background-image: url("https://cdn.hvlgroup.com/hudsonvalleylighting/media/green%20paper.jpg");
+                opacity: 1;
+                
+                /* the height part lets you decide how long to make the background */
+                height: 500px;
+                
+                /* fixed background for the scrolling effect */
+                background-attachment: fixed;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                margin-left:-410px;
+                margin-right:-410px;
+            }
+            
+            /* the third div is for the content overlayed on the image */
+            .parallax-content { 
+                box-sizing: border-box;
+                width:50%;
+                margin:auto;
+                color: black;
+                font-size:60px;
+                font-family: monospace;
+                padding-top: 200px;
+                text-align: center;
+            }
+            
+            /* the next two css classes are for the teachers' morning schedule */
+            .parallax1 {
+            
+                /* declare your hella long image url + settings */
+                background-image: url("https://i.postimg.cc/c4gz87Pb/IMG-3846.jpg");
+                opacity: 1;
+                
+                /* the height part lets you decide how long to make the background */
+                height: 1000px;
+                
+                /* fixed background for the scrolling effect */
+                background-attachment: fixed;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                margin-left:-410px;
+                margin-right:-410px;
+            }
+            
+            .parallax2 {
+            
+                /* declare your image url + settings */
+                background-image: url("https://i.postimg.cc/mgV7LJ8f/IMG-4866.jpg");
+                opacity: 1;
+                
+                /* the height part lets you decide how long to make the background */
+                height: 1000px;
+                
+                /* fixed background for the scrolling effect */
+                background-attachment: fixed;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                margin-left:-410px;
+                margin-right:-410px;
+            }
+        </style>
+    </body>
+</html>
